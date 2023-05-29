@@ -1,4 +1,4 @@
-import mainLogo from 'images/logo_casa_w.png';
+import mainLogo from 'images/logo_casa_w2.png';
 import { useLocation, useNavigate } from 'react-router';
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
                 <img 
                     src={mainLogo} 
                     alt="logo" 
-                    className="h-36 cursor-pointer"
+                    className="h-24 cursor-pointer"
                     onClick={() => navigate('/')} 
                     />
             </div>
